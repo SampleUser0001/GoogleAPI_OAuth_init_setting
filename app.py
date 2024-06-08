@@ -4,6 +4,8 @@ import httplib2
 import os
 import sys
 
+import logging
+
 from apiclient.discovery import build
 from apiclient.errors import HttpError
 from oauth2client.client import flow_from_clientsecrets
@@ -21,6 +23,7 @@ from oauth2client.tools import argparser, run_flow
 #   https://developers.google.com/youtube/v3/guides/authentication
 # For more information about the client_secrets.json file format, see:
 #   https://developers.google.com/api-client-library/python/guide/aaa_client_secrets
+
 CLIENT_SECRETS_FILE = "client_secrets.json"
 
 # This variable defines a message to display if the CLIENT_SECRETS_FILE is
