@@ -8,17 +8,11 @@ GoogleAPIのOAuth2.0の認証ファイルを有効にする。
 ## 準備
 
 1. [Python で OAuth 2.0 認証を通して YouTube Data API を叩いてみた:DeveloperIO](https://dev.classmethod.jp/articles/oauth2-youtube-data-api/)を参考にして認証ファイルを取得する。
-2. 取得したファイルを```app.py```と同じディレクトリに配置する。ファイル名は```client_secrets.json```にする。
+2. 取得したファイルを```app.py```と同じディレクトリに配置する。ファイル名は任意。
 3. 下記実行。
-    ``` sh
-    pip install httplib2
+    ``` bash
+    bash activate.sh
     ```
-
-## 実行
-
-```
-python app.py
-```
 
 ## 実行結果
 
